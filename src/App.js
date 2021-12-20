@@ -9,10 +9,17 @@ class App extends Component {
     };
   }
 
+  members = [
+    { name: "Lisa" },
+    { name: "Jisoo" },
+    { name: "Jennie" },
+    { name: "Rose" }
+  ];
   render() {
     return (
       <div className="App">
-        <h1>Hello React App</h1>
+        <h1>BlackPink Cafe</h1>
+        <h10>Welcome!</h10>
       </div>
     );
   }
