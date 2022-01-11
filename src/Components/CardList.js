@@ -4,6 +4,7 @@ import "./productList.css";
 import Product from "./product";
 
 function CardList(props) {
+  console.log(props)
   return (
     <div className="ProductList">
       <Product
@@ -19,6 +20,16 @@ function CardList(props) {
       <Product
         addToShoppingCart={props.addToShoppingCart}
         name={props.members[2].name}
+      />
+
+      <Product
+        addToShoppingCart={props.addToShoppingCart}
+        name={props.members[3].name}
+      />
+
+      <Product
+        addToShoppingCart={props.addToShoppingCart}
+        name={props.members[4].name}
       />
     </div>
   );

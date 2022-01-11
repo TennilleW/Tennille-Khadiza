@@ -15,6 +15,20 @@ class App extends Component {
     { name: "Jennie" },
     { name: "Rose" }
   ];
+  items = [
+    { food: "Gamjatang(Lisa)" },
+    { food: "Truffle French Fries(Lisa)" },
+    { food: "Milk Flavored Ice Cream Latte(Jennie)" },
+    { food: "Mint Chocolate Coffee(Jennie)" },
+    { food: "Chicken fried rice(Jisoo)" },
+    { food: "Chocolate cappuccino(Jisoo" },
+    { food: "Crab sandwich(Rose)" },
+    { food: "Mango smoothie(Rose)" },
+    { food: "Avocado Toast(Jennie)" },
+    { food: "Kimchi Stew(Rose)" },
+    { food: "Tempura(Lisa)" },
+    { food: "Iced Americano(Jisoo)" }
+  ];
   render() {
     return (
       <div className="App">
